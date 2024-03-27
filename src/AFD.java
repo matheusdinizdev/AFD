@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Set;
 
 public class AFD {
-    private Set<String> estados;
+    //private Set<String> estados;
     private Set<String> alfabeto;
     private String estadoInicial;
     private Set<String> estadosFinais;
@@ -18,7 +18,7 @@ public class AFD {
      */
     public AFD(String[] estados, String[] alfabeto, String estadoInicial, String[] estadosFinais) {
         this.transicoes = new HashMap<>();
-        this.estados = Set.of(estados);
+        //this.estados = Set.of(estados);
         this.alfabeto = Set.of(alfabeto);
         this.estadoInicial = estadoInicial;
         this.estadosFinais = Set.of(estadosFinais);
